@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
-  before_action :basic_auth
 
+<<<<<<< HEAD
   private
 
   def basic_auth
@@ -8,4 +8,6 @@ class ApplicationController < ActionController::Base
      username == ENV["BASIC_AUTH_USER"] && password == ENV["BASIC_AUTH_PASSWORD"]
    end
   end
+=======
+>>>>>>> parent of b0cd0e5... Basic認証を導入
 end
